@@ -13,14 +13,17 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 const DarkModeimg = document.querySelector(".logo")
 const icon = document.getElementById("icon");
 
-// icon.onclick = function () {
-//     document.body.classList.toggle("dark-theme");
-//     if (document.body.classList.contains("dark-theme")) {
-//         DarkModeimg.src = "./images/alarado-icon-homepage.svg";
-//         icon.src = "./images/Sun_fill.svg"
-//     }
-//     else {
-//         DarkModeimg.src = "./images/alarado-icon-homepage-dark-mode.svg"
-//         icon.src = "./images/Moon_fill.svg"
-//     }
-// }
+icon.onclick = function () {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+
+        DarkModeimg.src = "./images/alarado-icon-homepage-dark-mode.svg"
+        icon.src = "./images/Sun_fill.svg"
+    }
+    else {
+
+        DarkModeimg.src = "./images/alarado-icon-homepage-dark-mode.svg"
+
+        icon.src = "./images/Moon_fill.svg"
+    }
+}
