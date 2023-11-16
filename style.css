@@ -113,14 +113,12 @@ button{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: auto;
     
 }
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     
     
 }
@@ -130,7 +128,6 @@ nav{
     display: flex;
     gap: 15px;
     list-style: none;
-    align-items: center;
     
 }
 .nav-menu ul li a{
@@ -140,7 +137,7 @@ nav{
 }
 
 .nav-menu:not(:last-child){
-    gap: 300px;
+    gap: 310px;
 
 }
 .nav-menu  ul li a:hover,
@@ -183,6 +180,7 @@ color: var(--secondary-clr);
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    align-items: center;
     
 }
 .home-page picture img{
